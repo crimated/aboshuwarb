@@ -1,0 +1,270 @@
+{
+  "categories": [
+    {
+      "id": "wrsukvz7",
+      "name": "الكنافة"
+    },
+    {
+      "id": "ouu4df3t",
+      "name": "القطايف"
+    },
+    {
+      "id": "egcqn0j0",
+      "name": "البقلاوة"
+    },
+    {
+      "id": "nlu7pthi",
+      "name": "الحلويات المتنوعة"
+    },
+    {
+      "id": "y7rndl0k",
+      "name": "البوضة"
+    },
+    {
+      "id": "h3q4l192",
+      "name": "المعلبات"
+    }
+  ],
+  "items": [
+    {
+      "id": "6i7kpy5w",
+      "categoryId": "wrsukvz7",
+      "title": "كنافة نابلسية كيلو",
+      "description": "",
+      "price": 15000,
+      "image": ""
+    },
+    {
+      "id": "b2s2lkhy",
+      "categoryId": "wrsukvz7",
+      "title": "كنافة نابلسية قطعة",
+      "description": "",
+      "price": 2000,
+      "image": ""
+    },
+    {
+      "id": "17p247xm",
+      "categoryId": "wrsukvz7",
+      "title": "كنافة بالجبن كيلو",
+      "description": "",
+      "price": 15000,
+      "image": ""
+    },
+    {
+      "id": "9yn4qfma",
+      "categoryId": "wrsukvz7",
+      "title": "كنافة بالجبن قطعة",
+      "description": "",
+      "price": 2000,
+      "image": ""
+    },
+    {
+      "id": "lcts60vq",
+      "categoryId": "wrsukvz7",
+      "title": "كنافة بالقشطة كيلو",
+      "description": "",
+      "price": 15000,
+      "image": ""
+    },
+    {
+      "id": "aayk5evu",
+      "categoryId": "wrsukvz7",
+      "title": "كنافة بالقشطة قطعة",
+      "description": "",
+      "price": 2000,
+      "image": ""
+    },
+    {
+      "id": "rt8skgz6",
+      "categoryId": "wrsukvz7",
+      "title": "كنافة بالحليب قطعة",
+      "description": "",
+      "price": 2500,
+      "image": ""
+    },
+    {
+      "id": "hhfdmtpf",
+      "categoryId": "ouu4df3t",
+      "title": "قطايف بالقشطة كيلو",
+      "description": "",
+      "price": 14000,
+      "image": ""
+    },
+    {
+      "id": "el2u0d7i",
+      "categoryId": "ouu4df3t",
+      "title": "قطايف بالقشطة قطعة",
+      "description": "",
+      "price": 1500,
+      "image": ""
+    },
+    {
+      "id": "2xliogoz",
+      "categoryId": "ouu4df3t",
+      "title": "قطايف بالجوز كيلو",
+      "description": "",
+      "price": 14000,
+      "image": ""
+    },
+    {
+      "id": "45tttcwu",
+      "categoryId": "ouu4df3t",
+      "title": "قطايف بالجوز قطعة",
+      "description": "",
+      "price": 1500,
+      "image": ""
+    },
+    {
+      "id": "kj26moff",
+      "categoryId": "nlu7pthi",
+      "title": "حلاوة جبن كيلو",
+      "description": "",
+      "price": 14000,
+      "image": ""
+    },
+    {
+      "id": "kt0o6rmn",
+      "categoryId": "nlu7pthi",
+      "title": "بسبوسة كيلو",
+      "description": "",
+      "price": 10000,
+      "image": ""
+    },
+    {
+      "id": "ctiq2r2s",
+      "categoryId": "nlu7pthi",
+      "title": "زنود الست كيلو",
+      "description": "",
+      "price": 10000,
+      "image": ""
+    },
+    {
+      "id": "t74yuc1a",
+      "categoryId": "egcqn0j0",
+      "title": "بقلاوة مشكل بالفستق الحلبي",
+      "description": "",
+      "price": 24000,
+      "image": ""
+    },
+    {
+      "id": "iuuz6geu",
+      "categoryId": "egcqn0j0",
+      "title": "بقلاوة مشكل بالجوز والفستق",
+      "description": "",
+      "price": 14000,
+      "image": ""
+    },
+    {
+      "id": "tayvl8nu",
+      "categoryId": "egcqn0j0",
+      "title": "بقلاوة باردة بالحليب",
+      "description": "",
+      "price": 20000,
+      "image": ""
+    },
+    {
+      "id": "p337x3bc",
+      "categoryId": "y7rndl0k",
+      "title": "بوضة بكداش فستق",
+      "description": "",
+      "price": 16000,
+      "image": ""
+    },
+    {
+      "id": "im4sjn05",
+      "categoryId": "y7rndl0k",
+      "title": "بوضة بكداش فواكه",
+      "description": "",
+      "price": 14000,
+      "image": ""
+    },
+    {
+      "id": "t4dimao2",
+      "categoryId": "y7rndl0k",
+      "title": "بوضة بكداش كاسة",
+      "description": "",
+      "price": 2000,
+      "image": ""
+    },
+    {
+      "id": "ik7rmmde",
+      "categoryId": "h3q4l192",
+      "title": "دراكون مجفف",
+      "description": "",
+      "price": 6000,
+      "image": ""
+    },
+    {
+      "id": "by49490h",
+      "categoryId": "h3q4l192",
+      "title": "دراجيه كازو وبندق",
+      "description": "",
+      "price": 12000,
+      "image": ""
+    },
+    {
+      "id": "oiu5uqo4",
+      "categoryId": "h3q4l192",
+      "title": "من السما بدون سكر بالجوز ربع كيلو",
+      "description": "",
+      "price": 4000,
+      "image": ""
+    },
+    {
+      "id": "bl10gty1",
+      "categoryId": "h3q4l192",
+      "title": "من السما بدون سكر بالفستق ربع كيلو",
+      "description": "",
+      "price": 5000,
+      "image": ""
+    },
+    {
+      "id": "kbje57ba",
+      "categoryId": "h3q4l192",
+      "title": "دبس تمر الهند طبيعي",
+      "description": "",
+      "price": 5000,
+      "image": ""
+    },
+    {
+      "id": "tgdvg7s6",
+      "categoryId": "h3q4l192",
+      "title": "دبس الرمان طبيعي",
+      "description": "",
+      "price": 5000,
+      "image": ""
+    },
+    {
+      "id": "ksh4nl2g",
+      "categoryId": "h3q4l192",
+      "title": "كيوي مجفف",
+      "description": "",
+      "price": 6000,
+      "image": ""
+    },
+    {
+      "id": "jnvzwhtw",
+      "categoryId": "h3q4l192",
+      "title": "حمضيات مشكل",
+      "description": "",
+      "price": 4000,
+      "image": ""
+    },
+    {
+      "id": "epfwo03e",
+      "categoryId": "h3q4l192",
+      "title": "خضراوات مجفف مشكل",
+      "description": "",
+      "price": 7000,
+      "image": ""
+    },
+    {
+      "id": "k0ywg8d2",
+      "categoryId": "h3q4l192",
+      "title": "فواكه مجفف مشكل",
+      "description": "",
+      "price": 6000,
+      "image": ""
+    }
+  ]
+}

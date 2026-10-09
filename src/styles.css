@@ -1,0 +1,83 @@
+@import "tailwindcss" source(none);
+@source "../src";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --font-sans: "Tajawal", "Readex Pro", system-ui, sans-serif;
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+  --radius-2xl: calc(var(--radius) + 8px);
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-overlay: var(--overlay);
+  --color-gold: var(--gold);
+  --shadow-lux: 0 4px 20px oklch(0.32 0.05 45 / 0.05);
+  --shadow-lux-lg: 0 12px 36px oklch(0.32 0.05 45 / 0.12);
+  --shadow-card: 0 2px 12px -4px oklch(0.33 0.05 45 / 0.12);
+}
+
+:root {
+  --radius: 0.75rem;
+  --background: oklch(0.975 0.01 80);
+  --foreground: oklch(0.28 0.04 45);
+  --card: oklch(1 0 0);
+  --card-foreground: oklch(0.28 0.04 45);
+  --popover: oklch(1 0 0);
+  --popover-foreground: oklch(0.28 0.04 45);
+  --primary: oklch(0.32 0.05 45);
+  --primary-foreground: oklch(0.985 0.006 85);
+  --secondary: oklch(0.955 0.012 80);
+  --secondary-foreground: oklch(0.32 0.05 45);
+  --muted: oklch(0.955 0.012 80);
+  --muted-foreground: oklch(0.52 0.03 55);
+  --accent: oklch(0.93 0.02 75);
+  --accent-foreground: oklch(0.32 0.05 45);
+  --destructive: oklch(0.55 0.17 28);
+  --destructive-foreground: oklch(0.985 0 0);
+  --border: oklch(0.9 0.025 75);
+  --input: oklch(0.91 0.014 78);
+  --ring: oklch(0.32 0.05 45);
+  --overlay: oklch(0.2 0.03 45 / 0.5);
+  --gold: oklch(0.68 0.09 75);
+}
+
+@layer base {
+  * { border-color: var(--color-border); }
+  html { font-family: var(--font-sans); }
+  body { background-color: var(--color-background); color: var(--color-foreground); }
+  .no-scrollbar::-webkit-scrollbar { display: none; }
+  .no-scrollbar { scrollbar-width: none; }
+}
+
+@layer components {
+  .btn-primary { @apply inline-flex items-center justify-center gap-2 rounded-2xl bg-primary px-6 py-3 font-medium tracking-wide text-primary-foreground shadow-lux transition-all duration-300 hover:-translate-y-0.5 hover:shadow-lux-lg active:translate-y-0 disabled:opacity-50; }
+  .btn-outline { @apply inline-flex items-center justify-center gap-2 rounded-2xl border border-border bg-card px-6 py-3 font-medium text-primary shadow-lux transition-all duration-300 hover:-translate-y-0.5 hover:border-primary/40; }
+  .btn-ghost-light { @apply inline-flex items-center justify-center gap-2 rounded-2xl border border-primary-foreground/40 bg-primary-foreground/10 px-6 py-3 font-medium text-primary-foreground backdrop-blur-sm transition-all duration-300 hover:bg-primary-foreground/20; }
+  .field { @apply w-full rounded-xl border border-input bg-card px-4 py-3 text-foreground outline-none transition-colors placeholder:text-muted-foreground/70 focus:border-primary/60; }
+  .card { @apply rounded-2xl border border-border bg-card shadow-lux; }
+  .eyebrow { @apply text-xs font-medium tracking-[0.25em] text-gold; }
+  .divider-ornament { @apply mx-auto h-px w-16 bg-gold/60; }
+}
+
+@keyframes grow { from { transform: scaleX(0); } to { transform: scaleX(1); } }
