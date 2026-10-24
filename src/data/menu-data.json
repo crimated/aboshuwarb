@@ -32,7 +32,7 @@
       "title": "كنافة نابلسية كيلو",
       "description": "",
       "price": 15000,
-      "image": ""
+      "image": "/images/kunafan1k.jpeg"
     },
     {
       "id": "b2s2lkhy",
@@ -40,7 +40,7 @@
       "title": "كنافة نابلسية قطعة",
       "description": "",
       "price": 2000,
-      "image": ""
+      "image": "/images/kunafan1.jpeg"
     },
     {
       "id": "17p247xm",
@@ -48,7 +48,7 @@
       "title": "كنافة بالجبن كيلو",
       "description": "",
       "price": 15000,
-      "image": ""
+      "image": "/images/kunafa.jpeg"
     },
     {
       "id": "9yn4qfma",
@@ -80,7 +80,7 @@
       "title": "كنافة بالحليب قطعة",
       "description": "",
       "price": 2500,
-      "image": ""
+      "image": "/images/kunafamilk.jpeg"
     },
     {
       "id": "hhfdmtpf",
@@ -88,7 +88,7 @@
       "title": "قطايف بالقشطة كيلو",
       "description": "",
       "price": 14000,
-      "image": ""
+      "image": "/images/qtaef.jpeg"
     },
     {
       "id": "el2u0d7i",
@@ -96,7 +96,7 @@
       "title": "قطايف بالقشطة قطعة",
       "description": "",
       "price": 1500,
-      "image": ""
+      "image": "/images/qtaef.jpeg"
     },
     {
       "id": "2xliogoz",
@@ -120,7 +120,7 @@
       "title": "حلاوة جبن كيلو",
       "description": "",
       "price": 14000,
-      "image": ""
+      "image": "/images/jbn.jpeg"
     },
     {
       "id": "kt0o6rmn",
@@ -128,7 +128,7 @@
       "title": "بسبوسة كيلو",
       "description": "",
       "price": 10000,
-      "image": ""
+      "image": "/images/bsbosa.jpeg"
     },
     {
       "id": "ctiq2r2s",
